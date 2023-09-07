@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "f7cbb856-6f10-4ac0-ba4a-b5917c15137c",
+		"name": "TwilioDemo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4314467"
+	},
+	"item": [
+		{
+			"name": "/sms",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"destination\": \"+38978499046\",\r\n    \"payload\": \"hello Twilio!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/sms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sms"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
